@@ -2,8 +2,8 @@
 #Student ID: GCS210109
 #Class: GCS1003A
 
-#Exercise 1:
-#Prompt the user to enter their name
+# Exercise 1:
+# Prompt the user to enter their name
 name = input("Type your name: ")
 
 #Prompt the user to enter their age and convert it to an integer
@@ -56,11 +56,13 @@ word_count_modified = count_words(text_modified)
 
 #Define a function to print the number of words before and after modification
 def change_word():
+    print("---------------------------")
+
     #Print the number of words in the original text
     print(f"Number of words before modified: {word_count_original}")
 
-    #Print the word that were replaced
-    print(f"Word replaced: {word_replace}")
+    #Print the modified text that has been replaced
+    print(f"Text modified: {text_modified}")
     
     #Print the number of words in the modified text
     print(f"Number of words after modified: {word_count_modified}")
