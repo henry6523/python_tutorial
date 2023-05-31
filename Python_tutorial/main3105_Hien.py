@@ -60,6 +60,4 @@ a[-1, :] = 1
 a[:, 0] = 1
 a[:, -1] = 1
 
-print("a) Array with ones on edges:")
-print(a)
-print()
+print("a) Array with ones on edges:", a)
